@@ -1,7 +1,9 @@
 package com.coderscampus;
 
+//needed for the random object so it could be uses
 import java.util.Random;
 
+//used for the ability to input information with system in 
 import java.util.Scanner;
 
 public class GuessNumber {
@@ -24,6 +26,7 @@ public class GuessNumber {
 		//while loop initializer
 		int mathPlus = 1;
 
+		//while loop iterates through 5 attempts - which is related to the user chances at guessing corrrectly
 		while (mathPlus <= 5) {
 			//used .print instead of .println so the input number would appear after the :
 			System.out.print("Please pick a number between 1 and 100: ");
@@ -40,10 +43,12 @@ public class GuessNumber {
 //				break;
 			} else if (convertInputUser < 1 || convertInputUser > 100) {
 				System.out.println("Your guess is not between 1 and 100, please try again!!");
+				//I added the next two lines just to see if it was possible
 			} else if (randomInputCpu == (convertInputUser + 10)) {
 				System.out.println("You're 10 points Lower than the cpu generator!");
 			} else if (convertInputUser == (randomInputCpu + 10)) {
 				System.out.println("You're 10 points Higher than the cpu generator!");
+				//the above code was not required but added in to see if it was possible
 			} else if (convertInputUser > randomInputCpu) {
 				System.out.println("Incorrect, please pick a lower number!");
 
