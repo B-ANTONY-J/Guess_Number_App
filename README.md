@@ -1,5 +1,5 @@
 # Guess_Number_App
-# When the player starts the game, a random number will be generated. This random number will be the number that the player will try to guess (so don’t tell the player what this number is).
+## When the player starts the game, a random number will be generated. This random number will be the number that the player will try to guess (so don’t tell the player what this number is).
 
 # The player will then be prompted to “Pick a number between 1 and 100”. The range from 1 to 100 is inclusive, so the number can be 1, or 100 or any number in-between.
 
@@ -15,7 +15,7 @@
 
 # 4. (OPTIONAL ADD BY CODE) 4. "You're 10 points Lower than the cpu generator!"
 
-# 5. (OPTIONAL ADD BY CODE) 4. "You're 10 points Higher than the cpu generator!"
+# 5. (OPTIONAL ADD BY CODE) 5. "You're 10 points Higher than the cpu generator!"
 
 
 
