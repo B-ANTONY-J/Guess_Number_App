@@ -45,6 +45,7 @@ public class GuessNumber {
 //				break;
 			} else if (convertInputUser < 1 || convertInputUser > 100) {
 				System.out.println("Your guess is not between 1 and 100, please try again!!");
+				continue;
 				// I added the next two lines just to see if it was possible
 			} else if (randomInputCpu == (convertInputUser + 10)) {
 				System.out.println("You're 10 points Lower than the cpu generator!");
