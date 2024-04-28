@@ -40,7 +40,7 @@ public class GuessNumber {
 			if (convertInputUser == randomInputCpu) {
 				System.out.println("\nYes, You win!!!!");
 				break;
-			} else if (mathPlus == 5) {
+			} else if (mathPlus == 5 && convertInputUser >= 1 && convertInputUser <= 100 ) {
 				System.out.println("\nYou Lose!!!!\nThe number to guess was: " + randomInputCpu);
 //				break;
 			} else if (convertInputUser < 1 || convertInputUser > 100) {
